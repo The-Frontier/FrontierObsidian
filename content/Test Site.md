@@ -3,5 +3,5 @@ title: Test Site
 draft: false
 tags:
 ---
- 
-This is a Template for the Publishing file.
+This is the homepage i think?
+[[wow a new page]]
