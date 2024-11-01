@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/FIC/index.md",
+                "file": "content/2024 Frontier Industrial Cooperative Structure.excalidraw.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2024 Frontier Industrial Cooperative Structure.excalidraw"
             }
           }
         ],
@@ -120,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 661.5
   },
   "right": {
     "id": "3c8f588aeb46b5b4",
@@ -219,8 +219,8 @@
   },
   "active": "0c80bf30bad72f0d",
   "lastOpenFiles": [
-    "content/index.md",
     "content/FIC/index.md",
+    "content/index.md",
     "content/FIC",
     "content/Test Site.md",
     "content/wow a new page.md",
