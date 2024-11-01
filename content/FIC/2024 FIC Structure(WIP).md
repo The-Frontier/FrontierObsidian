@@ -38,7 +38,7 @@ In-Branch Specialization could be deemed too complex to benefit FIC. It will lea
 - If it is deemed prudent to multi-plex organizations for multiple realms of training, FIC will again work with COOs of child-orgs to determine where best to assist its child orgs
 
 # Procurement: Frontier Procurement Agency
-The Procurement branch of FIC will be primarily concerned with Mining and Salvaging operations within the 'Verse. It is likely that the Procurement Branch will be the branch most concerned with intra-org cooperation. They will work with Logistics and both combat branches to develop, maintain, and defend resource-aquisition avenues including but not limited to: Mining sites, salvaging battlefields, and assisting in the building of Resource-Allocation outposts
+The Procurement branch of FIC will be primarily concerned with Mining and Salvaging operations within the 'Verse. It is likely that the Procurement Branch will be the branch most concerned with intra-org cooperation. They will work with Logistics and both combat branches to develop, maintain, and defend resource-acquisition avenues including but not limited to: Mining sites, salvaging battlefields, and assisting in the building of Resource-Allocation outposts
 
 # Manufacturing: Frontier Steel-Works
 The Manufactoring branch will be the most multi-discipline branch of the FIC. Manufactoring will be the home of planetary building operations. These operations will include not just construction, but also the refinement of goods brought in from Procurement. Manufacturing will also be home to the Engineering Corps of the Frontier and FIC.
