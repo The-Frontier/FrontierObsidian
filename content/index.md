@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to The Frontier Documentation
 ---
 
 This is a blank Quartz installation.
