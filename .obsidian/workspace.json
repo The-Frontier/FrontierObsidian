@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/FIC/index.md",
+                "file": "content/FIC/2024 FIC Structure(WIP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2024 FIC Structure(WIP)"
             }
           }
         ],
@@ -216,8 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,13 +233,13 @@
   },
   "active": "83573393675daba2",
   "lastOpenFiles": [
-    "content/index.md",
-    "content/FIC/2024 FIC Structure(WIP).md",
     "content/Test Site.md",
     "conflict-files-obsidian-git.md",
+    "content/FIC/2024 FIC Structure(WIP).md",
     "content/FIC/index.md",
     "templates/Template.md",
     "content/2024 Frontier Industrial Cooperative Structure.excalidraw.md",
+    "content/index.md",
     "content/FIC",
     "content/wow a new page.md",
     "attachments/Untitled.jpg",
