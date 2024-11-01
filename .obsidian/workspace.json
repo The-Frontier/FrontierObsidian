@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/FIC/index.md",
+                "file": "templates/Template.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Template"
             }
           }
         ],
@@ -219,15 +219,15 @@
   },
   "active": "0c80bf30bad72f0d",
   "lastOpenFiles": [
-    "content/index.md",
+    "content/2024 Frontier Industrial Cooperative Structure.excalidraw.md",
     "content/FIC/index.md",
+    "content/index.md",
     "content/FIC",
     "content/Test Site.md",
     "content/wow a new page.md",
     "attachments/Untitled.jpg",
     "attachments",
     "templates/Template.md",
-    "content/2024 Frontier Industrial Cooperative Structure.excalidraw.md",
     "Untitled.jpg",
     "content/attachments/Untitled.jpg",
     "content/attachments",
