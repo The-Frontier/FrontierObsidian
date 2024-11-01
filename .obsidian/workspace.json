@@ -120,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 661.5,
-    "collapsed": true
+    "width": 370.5
   },
   "right": {
     "id": "3c8f588aeb46b5b4",
@@ -218,10 +217,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f9ba1bf75b7f1561",
+  "active": "0c80bf30bad72f0d",
   "lastOpenFiles": [
-    "content/2024 Frontier Industrial Cooperative Structure.excalidraw.md",
+    "templates/Template.md",
     "content/FIC/2024 FIC Structure(WIP).md",
+    "content/2024 Frontier Industrial Cooperative Structure.excalidraw.md",
     "content/FIC/index.md",
     "content/index.md",
     "content/FIC",
@@ -229,7 +229,6 @@
     "content/wow a new page.md",
     "attachments/Untitled.jpg",
     "attachments",
-    "templates/Template.md",
     "Untitled.jpg",
     "content/attachments/Untitled.jpg",
     "content/attachments",

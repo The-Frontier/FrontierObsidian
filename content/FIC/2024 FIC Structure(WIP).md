@@ -1,6 +1,6 @@
 ---
 title: 2024 FIC Structure WIP
-draft: false
+draft: true
 tags:
   - FIC
 ---
