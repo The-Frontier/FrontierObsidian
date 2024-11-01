@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/2024 Frontier Industrial Cooperative Structure.excalidraw.md",
+                "file": "content/FIC/2024 FIC Structure(WIP).md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2024 Frontier Industrial Cooperative Structure.excalidraw"
+              "title": "2024 FIC Structure(WIP)"
             }
           }
         ],
@@ -120,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 661.5
+    "width": 661.5,
+    "collapsed": true
   },
   "right": {
     "id": "3c8f588aeb46b5b4",
@@ -181,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unpublished/This will not be published.md"
+                "file": "content/FIC/2024 FIC Structure(WIP).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of This will not be published"
+              "title": "Outline of 2024 FIC Structure(WIP)"
             }
           },
           {
@@ -217,8 +218,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0c80bf30bad72f0d",
+  "active": "f9ba1bf75b7f1561",
   "lastOpenFiles": [
+    "content/2024 Frontier Industrial Cooperative Structure.excalidraw.md",
+    "content/FIC/2024 FIC Structure(WIP).md",
     "content/FIC/index.md",
     "content/index.md",
     "content/FIC",
@@ -227,7 +230,6 @@
     "attachments/Untitled.jpg",
     "attachments",
     "templates/Template.md",
-    "content/2024 Frontier Industrial Cooperative Structure.excalidraw.md",
     "Untitled.jpg",
     "content/attachments/Untitled.jpg",
     "content/attachments",
