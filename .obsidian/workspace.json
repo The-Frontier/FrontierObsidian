@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.md",
+                "file": "templates/Template.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Template"
             }
           }
         ],
@@ -233,8 +233,8 @@
   },
   "active": "83573393675daba2",
   "lastOpenFiles": [
-    "content/FIC/2024 FIC Structure(WIP).md",
     "content/index.md",
+    "content/FIC/2024 FIC Structure(WIP).md",
     "content/Test Site.md",
     "conflict-files-obsidian-git.md",
     "content/FIC/index.md",
