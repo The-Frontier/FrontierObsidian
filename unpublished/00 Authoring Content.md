@@ -9,7 +9,10 @@ All content is generally authored in Markdown. All features of the markdown synt
 > [!warning]
 > HTML is accepted in the markdown syntax. However since we are generating a website, HTML Codes inside a markdown file will impact the generation
 
-### Obsidian specific markdown
+### Linking notes/pages
+When wanting to link to other pages, use a wikilink like this [[0 Test Page for Linking]] `[[0 Test Page for Linking]]`. When the website is generated, a link to the note is generated.
+
+### Obsidian flavoured markdown
 Callouts/Admonitions like the one above are not a part of the general markdown syntax, this Editor (Obsidian) does allow them and they will be generated accordingly on the website. There are different types of apart from the example below.
 
 ```
@@ -18,10 +21,13 @@ Callouts/Admonitions like the one above are not a part of the general markdown s
 ```
 
 > [!info]
-> More types can be seen [here](https://notes.nicolevanderhoeven.com/Obsidian+Callouts)
+> More callout types can be seen [here](https://notes.nicolevanderhoeven.com/Obsidian+Callouts).
+
+> [!info]
+> For an overview of all obsidian flavoured markdown, have a look [here](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown).
 
 ### Tags
-Tags can give more context to the note itself. It will also show all tags of the note on the website for easier navigation and grouping (see [[0 Authoring Content#Tag Listings]]). Only create tags in the Tags Property of the note, so it can correctly render on the website.  A tag is created with a `#` in front of the text like #fic. The case of the letters does not matter.
+Tags can give more context to the note itself. It will also show all tags of the note on the website for easier navigation and grouping (see [[00 Authoring Content#Tag Listings]]). Only create tags in the Tags Property of the note, so it can correctly render on the website.  A tag is created with a `#` in front of the text like #fic. The case of the letters does not matter.
 
 > [!info]
 > It is recommended to only write lowercase letters in the tag.
@@ -38,7 +44,10 @@ Embedding images is as easy as copy and pasting. The image in the clipboard shou
 > It is recommended to only use .svg files when embedding images, as they will scale losless on the website. If nothing else is available, .png files are also a good choice. Try to avoid .jpg files.
 
 ### Embedding Static Content
+When wanting to add static content like videso or pdf files, you can simply add the file to the current folder. It will be accessible through its path ie. `path/to/static.pdf`. The file can be linked with a wiki link like you would link to other pages.
 
+> [!info]
+> Try to avoid using pdfs in this documentation as it will not fit the overall theme. Furthermore try to always embed images into a corresponding note and provide more information.
 
 ## Quartz
 Since all markdown syntax is supported, there is only very few Quartz specific syntax to adhere to. Furthermore as you have noticed, files and folders in the  `unpublished` folder will not be published to the website and stay private.
@@ -51,6 +60,7 @@ All notes created in the `content` folder will have a template applied, which ha
 - `description`: Description of the page used for link previews.
 - `aliases`: Other names for this note. This is a list of strings.
 - `date`: A string representing the day the note was published. Normally uses `YYYY-MM-DD` format.
+- `order`: A string consisting of numbers that controls the order in which the files are shown in lists on the website. 000 will be shown before 00, will be shown before 1.
 
 ### Index page for subfolders
 Quartz will create an index page for all pages under that folder. This includes any content that is multiple levels deep. Say if you have a note in a nested folder `content/abc/def/note.md`, an index page would be generated for all the notes under `abc` *and* a page for all the notes under `abc/def`.
