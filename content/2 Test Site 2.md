@@ -1,6 +1,6 @@
 ---
 draft: false
-title: <% tp.file.title %>
+title: Test Site 2
 tags:
 description:
 aliases:
