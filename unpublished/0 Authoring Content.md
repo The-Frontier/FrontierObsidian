@@ -10,7 +10,7 @@ All content is generally authored in Markdown. All features of the markdown synt
 > HTML is accepted in the markdown syntax. However since we are generating a website, HTML Codes inside a markdown file will impact the generation
 
 ### Obsidian specific markdown
-Callouts/Admonitions like the one above are not a part of the general markdown syntax, this Editor (Obsidian) does allow them and they will be generated accordingly on the website. There are different types of apart from the example bewlo
+Callouts/Admonitions like the one above are not a part of the general markdown syntax, this Editor (Obsidian) does allow them and they will be generated accordingly on the website. There are different types of apart from the example below.
 
 ```
 > [!info]
