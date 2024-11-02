@@ -20,6 +20,12 @@ Callouts/Admonitions like the one above are not a part of the general markdown s
 > [!info]
 > More types can be seen [here](https://notes.nicolevanderhoeven.com/Obsidian+Callouts)
 
+### Tags
+Tags can give more context to the note itself. It will also show all tags of the note on the website for easier navigation and grouping (see [[0 Authoring Content#Tag Listings]]). Only create tags in the Tags Property of the note, so it can correctly render on the website.  A tag is created with a `#` in front of the text like #fic. The case of the letters does not matter.
+
+> [!info]
+> It is recommended to only write lowercase letters in the tag.
+
 ### Embedding Images
 Embedding images is as easy as copy and pasting. The image in the clipboard should be inserted into the `/attachments` folder and a wikilink like 
 `![[attachments/image.png]]` should appear in the note. Renaming the image is recommended, the link should auto-update when renaming the image. To change the size of the image adjust the wikilink like this: 
@@ -30,11 +36,9 @@ Embedding images is as easy as copy and pasting. The image in the clipboard shou
 
 > [!info]
 > It is recommended to only use .svg files when embedding images, as they will scale losless on the website. If nothing else is available, .png files are also a good choice. Try to avoid .jpg files.
-### Tags
-Tags can give more context to the note itself. It will also show all tags of the note on the website for easier navigation and grouping (see [[0 Authoring Content#Tag Listings]]). Only create tags in the Tags Property of the note, so it can correctly render on the website.  A tag is created with a `#` in front of the text like #fic. The case of the letters does not matter.
 
-> [!info]
-> It is recommended to only write lowercase letters in the tag.
+### Embedding Static Content
+
 
 ## Quartz
 Since all markdown syntax is supported, there is only very few Quartz specific syntax to adhere to. Furthermore as you have noticed, files and folders in the  `unpublished` folder will not be published to the website and stay private.
