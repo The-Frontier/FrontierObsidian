@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Template.md",
-                "mode": "preview",
-                "source": true
+                "file": "content/1 Test Site 3.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Template"
+              "title": "1 Test Site 3"
             }
           }
         ],
@@ -240,7 +240,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,9 +258,9 @@
   },
   "active": "87f42b08169a6669",
   "lastOpenFiles": [
+    "templates/Template.md",
     "content/Untitled.md",
     "content/This is a test.md",
-    "templates/Template.md",
     "content/1 Test Site 3.md",
     "unpublished/00 Authoring Content.md",
     "unpublished/0 Test Page for Linking.md",
