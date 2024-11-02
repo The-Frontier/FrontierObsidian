@@ -20,11 +20,12 @@ Callouts/Admonitions like the one above are not a part of the general markdown s
 > [!info]
 > More types can be seen [here](https://notes.nicolevanderhoeven.com/Obsidian+Callouts)
 
-### Inserting Images
-Inserting images is as easy as copy and pasting. The image in the clipboard should be inserted into the `/attachments` folder and a wikilink like `![[attachments/image.png]]` should appear in the note. 
+### Embedding Images
+Embedding images is as easy as copy and pasting. The image in the clipboard should be inserted into the `/attachments` folder and a wikilink like 
+`![[attachments/image.png]]` should appear in the note. Renaming the image is recommended, the link should auto-update when renaming the image.
 
 > [!warning]
-> Only images in the `/attachments` folder will be displayed on the website
+> Only images in the `/attachments` folder will be displayed on the website.
 
 ### Tags
 ## Quartz
