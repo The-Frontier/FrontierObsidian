@@ -1,5 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "attachments"
+  "attachmentFolderPath": "attachments",
+  "defaultViewMode": "source",
+  "strictLineBreaks": false
 }
