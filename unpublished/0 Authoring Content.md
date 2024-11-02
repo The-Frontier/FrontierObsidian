@@ -22,12 +22,20 @@ Callouts/Admonitions like the one above are not a part of the general markdown s
 
 ### Embedding Images
 Embedding images is as easy as copy and pasting. The image in the clipboard should be inserted into the `/attachments` folder and a wikilink like 
-`![[attachments/image.png]]` should appear in the note. Renaming the image is recommended, the link should auto-update when renaming the image.
+`![[attachments/image.png]]` should appear in the note. Renaming the image is recommended, the link should auto-update when renaming the image. To change the size of the image adjust the wikilink like this: 
+`![[attachments/image.png|500]]` which will render the image 500px wide and keep the aspect-ratio.
 
 > [!warning]
 > Only images in the `/attachments` folder will be displayed on the website.
 
+> [!info]
+> It is recommended to only use .svg files when embedding images, as they will scale losless on the website. If nothing else is available, .png files are also a good choice. Try to avoid .jpg files.
 ### Tags
+Tags can give more context to the note itself. It will also show all tags of the note on the website for easier navigation and grouping (see [[0 Authoring Content#Tag Listings]]). Only create tags in the Tags Property of the note, so it can correctly render on the website.  A tag is created with a `#` in front of the text like #fic. The case of the letters does not matter.
+
+> [!info]
+> It is recommended to only write lowercase letters in the tag.
+
 ## Quartz
 Since all markdown syntax is supported, there is only very few Quartz specific syntax to adhere to. Furthermore as you have noticed, files and folders in the  `unpublished` folder will not be published to the website and stay private.
 
@@ -51,4 +59,4 @@ In the text, you can link to the folder page by referencing its name, plus a tra
 Quartz will also create an index page for each unique tag used and render a list of all notes with that tag. Quartz also supports tag hierarchies like this `fic/events` and will create a separate tag page for each level of the tag hierarchy. It will also create a default global tag index page at `/tags` that displays a list of all tags used. Like with the folder listings, you can also reference to this page like this: `[[tags/]]` or this: `[[tags/fic]]`.
 
 > [!info]
-> IAs with the folder listings, you can also provide a description and title for a tag page by creating a file for each tag. For example if you wanted to create a custom description for the #FIC tag, you would create a file at `content/tags/fic.md`. As with the folder listings, the list of files that use this specific tag will still be generated underneath your custom content.
+> IAs with the folder listings, you can also provide a description and title for a tag page by creating a file for each tag. For example if you wanted to create a custom description for the #fic tag, you would create a file at `content/tags/fic.md`. As with the folder listings, the list of files that use this specific tag will still be generated underneath your custom content.
