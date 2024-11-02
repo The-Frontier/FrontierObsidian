@@ -22,6 +22,7 @@ Callouts/Admonitions like the one above are not a part of the general markdown s
 
 ### Inserting Images
 
+
 ### Tags
 ## Quartz
 Since all markdown syntax is supported, there is only very few Quartz specific syntax to adhere to. Furthermore as you have noticed, files and folders in the  `unpublished` folder will not be published to the website and stay private.
@@ -40,10 +41,10 @@ Quartz will create an index page for all pages under that folder. This includes 
 In the text, you can link to the folder page by referencing its name, plus a trailing slash, like this: `[[FIC/]]`. This results in an index page being shown with a Table of contents for the folder.
 
 > [!info]
-> If you want to customize the appearance of the page, you need to create an index.md file in the folder, which overwrites the automatic page creation.
+> If you want to customize the appearance of the page, you need to create an index.md file in the folder. This will give you the ability to add a more detailed description. The folder pages will still be generated underneath your custom content.
 
 ### Tag Listings
 Quartz will also create an index page for each unique tag used and render a list of all notes with that tag. Quartz also supports tag hierarchies like this `fic/events` and will create a separate tag page for each level of the tag hierarchy. It will also create a default global tag index page at `/tags` that displays a list of all tags used. Like with the folder listings, you can also reference to this page like this: `[[tags/]]` or this: `[[tags/fic]]`.
 
 > [!info]
-> IAs with the folder listings, you can also provide a description and title for a tag page by creating a file for each tag. For example if you wanted to create a custom description for the #FIC tag, you would create a file at `content/tags/fic.md`
+> IAs with the folder listings, you can also provide a description and title for a tag page by creating a file for each tag. For example if you wanted to create a custom description for the #FIC tag, you would create a file at `content/tags/fic.md`. As with the folder listings, the list of files that use this specific tag will still be generated underneath your custom content.
