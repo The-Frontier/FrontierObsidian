@@ -21,3 +21,25 @@ Callouts/Admonitions like the one above are not a part of the general markdown s
 > More types can be seen [here](https://notes.nicolevanderhoeven.com/Obsidian+Callouts)
 
 ## Quartz
+Since all markdown syntax is supported, there are only very few Quartz specific syntax to adhere to.
+
+## Properties
+All notes created in the `content` folder will have a template applied, which has some properties that controls the created webpage.
+- `draft`
+- `title`
+- `tags`
+- `description`
+- `aliases`
+- `date`
+
+
+
+
+---
+draft: false
+title: <% tp.file.title %>
+tags:
+description:
+aliases:
+date: YYYY-MM-DD
+---
