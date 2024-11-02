@@ -9,6 +9,9 @@ All content is generally authored in Markdown. All features of the markdown synt
 > [!warning]
 > HTML is accepted in the markdown syntax. However since we are generating a website, HTML Codes inside a markdown file will impact the generation
 
+### Linking notes/pages
+
+
 ### Obsidian specific markdown
 Callouts/Admonitions like the one above are not a part of the general markdown syntax, this Editor (Obsidian) does allow them and they will be generated accordingly on the website. There are different types of apart from the example below.
 
@@ -38,7 +41,8 @@ Embedding images is as easy as copy and pasting. The image in the clipboard shou
 > It is recommended to only use .svg files when embedding images, as they will scale losless on the website. If nothing else is available, .png files are also a good choice. Try to avoid .jpg files.
 
 ### Embedding Static Content
-When wanting to add static content like videso or pdf files, you can simply add the file to the current folder. It will be accessible through its path ie. `path/to/static.pdf`. The file can be linked 
+When wanting to add static content like videso or pdf files, you can simply add the file to the current folder. It will be accessible through its path ie. `path/to/static.pdf`. The file can be linked with a wiki link like you would link to other pages.
+
 
 ## Quartz
 Since all markdown syntax is supported, there is only very few Quartz specific syntax to adhere to. Furthermore as you have noticed, files and folders in the  `unpublished` folder will not be published to the website and stay private.
