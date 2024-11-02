@@ -24,7 +24,7 @@ Callouts/Admonitions like the one above are not a part of the general markdown s
 > More callout types can be seen [here](https://notes.nicolevanderhoeven.com/Obsidian+Callouts).
 
 > [!info]
-> For an overview of all obsidian specific markdown, have a look [here](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown).
+> For an overview of all obsidian flavoured markdown, have a look [here](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown).
 
 ### Tags
 Tags can give more context to the note itself. It will also show all tags of the note on the website for easier navigation and grouping (see [[00 Authoring Content#Tag Listings]]). Only create tags in the Tags Property of the note, so it can correctly render on the website.  A tag is created with a `#` in front of the text like #fic. The case of the letters does not matter.
