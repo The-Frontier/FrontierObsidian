@@ -86,23 +86,9 @@
               "icon": "lucide-file",
               "title": "0 Authoring Content"
             }
-          },
-          {
-            "id": "13eb9acdad7e64ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -255,10 +241,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "13eb9acdad7e64ac",
+  "active": "2ad3a1c931445c80",
   "lastOpenFiles": [
-    "unpublished/0 Authoring Content.md",
     "conflict-files-obsidian-git.md",
+    "unpublished/0 Authoring Content.md",
     "content/3 Test Site 1.md",
     "content/2 Test Site 2.md",
     "content/1 Test Site 3.md",
