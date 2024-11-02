@@ -25,21 +25,11 @@ Since all markdown syntax is supported, there are only very few Quartz specific 
 
 ## Properties
 All notes created in the `content` folder will have a template applied, which has some properties that controls the created webpage.
-- `draft`
-- `title`
-- `tags`
-- `description`
-- `aliases`
-- `date`
+- `draft`: Whether to publish the page or not. This is one way to make pages private in Quartz.
+- `title`: Title of the page. If it isn’t provided, Quartz will use the name of the file as the title. Title and name can differ.
+- `tags`: Tags for this note.
+- `description`: Description of the page used for link previews.
+- `aliases`: Other names for this note. This is a list of strings.
+- `date`: A string representing the day the note was published. Normally uses `YYYY-MM-DD` format.
 
-
-
-
----
-draft: false
-title: <% tp.file.title %>
-tags:
-description:
-aliases:
-date: YYYY-MM-DD
----
+### TOC files
