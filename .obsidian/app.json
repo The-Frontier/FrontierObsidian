@@ -3,5 +3,6 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "attachments",
   "defaultViewMode": "source",
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "livePreview": false
 }
