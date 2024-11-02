@@ -4,5 +4,5 @@ title: <% tp.file.title %>
 tags:
 description:
 aliases:
-date: <% tp.date.now %>
+date: YYYY-MM-DD
 ---
