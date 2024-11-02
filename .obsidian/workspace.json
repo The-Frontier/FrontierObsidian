@@ -94,7 +94,7 @@
               "type": "markdown",
               "state": {
                 "file": "templates/Template.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",

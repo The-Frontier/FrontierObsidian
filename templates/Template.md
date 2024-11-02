@@ -1,9 +1,9 @@
 ---
 draft: false
-title: <% tp.file.title %>
+title: 
 tags: 
 description: 
 aliases: 
-date: YYYY-MM-DD
+date: 
 order:
 ---
