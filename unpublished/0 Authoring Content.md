@@ -38,8 +38,7 @@ Embedding images is as easy as copy and pasting. The image in the clipboard shou
 > It is recommended to only use .svg files when embedding images, as they will scale losless on the website. If nothing else is available, .png files are also a good choice. Try to avoid .jpg files.
 
 ### Embedding Static Content
-When wanting to add 
-There are 2 ways of adding static content (videos, pdf). One way is to treat it as asset and put it into a folder in which case the file will be accessible through its path ie. `path/to/static.pdf`. Or treat is as a static file in which case the file should be sasved under ``
+When wanting to add static content like videso or pdf files, you can simply add the file to the current folder. It will be accessible through its path ie. `path/to/static.pdf`. The file can be linked 
 
 ## Quartz
 Since all markdown syntax is supported, there is only very few Quartz specific syntax to adhere to. Furthermore as you have noticed, files and folders in the  `unpublished` folder will not be published to the website and stay private.
