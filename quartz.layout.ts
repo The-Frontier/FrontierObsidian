@@ -94,9 +94,9 @@ export const defaultListPageLayout: PageLayout = {
         // Sort order: folders first, then files. Sort folders and files alphabetically
         sortFn: (a, b) => {
           const nameOrderMap: Record<string, number> = {
-            "Sorting2": 1,
-            "Sorting": 2,
-            "FIC": 3,
+            "Sorting2": 10,
+            "Sorting": 20,
+            "FIC": 30,
           };
 
           // Extract names
