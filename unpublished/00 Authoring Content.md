@@ -78,3 +78,7 @@ Quartz will also create an index page for each unique tag used and render a list
 
 > [!info]
 > As with the folder listings, you can also provide a description and title for a tag page by creating a file for each tag. For example if you wanted to create a custom description for the #fic tag, you would create a file at `content/tags/fic.md`. As with the folder listings, the list of files that use this specific tag will still be generated underneath your custom content.
+
+
+## How to update the website
+Your changes are saved every 1 Minute. This does not mean that they will appear instantly on the website. Currently either Detroyer or Seriphai have to manually update the Github Repository. This setup is preferred, because we can then manually resolve merge conflicts if they appear. Furthermore, the Website updates
