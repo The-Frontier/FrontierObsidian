@@ -60,7 +60,11 @@ All notes created in the `content` folder will have a template applied, which ha
 - `description`: Description of the page used for link previews.
 - `aliases`: Other names for this note. This is a list of strings.
 - `date`: A string representing the day the note was published. Normally uses `YYYY-MM-DD` format.
-- `order`: A string consisting of numbers that controls the order in which the files are shown in lists on the website. 000 will be shown before 00, will be shown before 1.
+- `order`: A string consisting of numbers that controls the order in which the files are shown in lists on the website. Please only use numbers starting from 0 and increasing. **Using expressions like 001 will not order correctly**.
+
+> [!info]
+> Currently there is no way of Sorting folders. Only files inside folders
+
 
 ### Index page for subfolders
 Quartz will create an index page for all pages under that folder. This includes any content that is multiple levels deep. Say if you have a note in a nested folder `content/abc/def/note.md`, an index page would be generated for all the notes under `abc` *and* a page for all the notes under `abc/def`.
