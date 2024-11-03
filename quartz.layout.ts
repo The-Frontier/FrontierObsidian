@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "The FrontierDiscord": "https://discord.gg/the-frontier",
     },
   }),
 };
@@ -59,7 +59,7 @@ export const defaultListPageLayout: PageLayout = {
           // Extract order values as strings
           const orderA = a.file?.frontmatter?.order?.toString();
           const orderB = b.file?.frontmatter?.order?.toString();
-
+          console.log(a.displayName, b.displayName, orderA, orderB);
           // If both have order values, compare lexicographically as strings
           if (orderA !== undefined && orderB !== undefined) {
             if (orderA < orderB) return -1;

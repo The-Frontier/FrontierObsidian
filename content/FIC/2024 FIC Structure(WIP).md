@@ -3,6 +3,7 @@ title: 2024 FIC Structure WIP
 draft: true
 tags:
   - "#fic"
+date: 2024-11-03
 ---
 # Introduction
 The following is meant to define the structure of the FIC (previously IAC) branch of 'The Frontier' organization going forward into v4.0 and the release of 1.0. 

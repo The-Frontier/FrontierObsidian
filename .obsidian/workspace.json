@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/FIC/index.md",
+                "file": "content/Ordering2/work.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "work"
             }
           }
         ]
@@ -176,24 +176,24 @@
   },
   "active": "c61ae654a3218d77",
   "lastOpenFiles": [
-    "content/Ordering2/work.md",
     "content/Ordering2/this.md",
     "content/Ordering2/pls.md",
     "content/Ordering2/make.md",
     "content/Ordering2/hopefully.md",
     "content/Ordering2/00 test.md",
-    "content/FIC/index.md",
-    "content/FIC/2024 FIC Structure(WIP).md",
-    "content/index.md",
     "content/Ordering/3 Test Site 1.md",
     "content/Ordering/2 Test Site 2.md",
     "content/Ordering/1 Test Site 3.md",
+    "content/FIC/index.md",
+    "content/FIC/2024 FIC Structure(WIP).md",
+    "content/Ordering2/work.md",
+    "unpublished/00 Authoring Content.md",
+    "content/index.md",
     "content/Ordering2",
     "content/Ordering",
     "templates/Template.md",
     "content/Untitled.md",
     "content/This is a test.md",
-    "unpublished/00 Authoring Content.md",
     "unpublished/0 Test Page for Linking.md",
     "conflict-files-obsidian-git.md",
     "content/wow a new page.md",
