@@ -4,5 +4,5 @@
   "attachmentFolderPath": "attachments",
   "defaultViewMode": "source",
   "strictLineBreaks": false,
-  "livePreview": false
+  "livePreview": true
 }
