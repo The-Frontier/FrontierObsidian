@@ -83,14 +83,8 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (
             );
             if (cssclasses) data.cssclasses = cssclasses;
 
-            console.log("data.order");
-            console.log(data.order);
-
             // fill in frontmatter
             file.data.frontmatter = data as QuartzPluginData["frontmatter"];
-
-            console.log("file.data.frontmatter.order");
-            console.log(file?.data?.frontmatter?.order);
           };
         },
       ];
