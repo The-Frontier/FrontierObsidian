@@ -2,7 +2,8 @@
 title: FIC
 draft: false
 tags:
-  - FIC
+  - fic
+date: 2024-11-03
 ---
 # Welcome to the Frontier Industrial Cooperative
 The FIC is home to all Industrial operations for The Frontier Organization. 
