@@ -63,7 +63,7 @@ export const defaultContentPageLayout: PageLayout = {
             return -1;
           }
         },
-      }),
+      })
     ),
   ],
   right: [
@@ -94,9 +94,9 @@ export const defaultListPageLayout: PageLayout = {
         // Sort order: folders first, then files. Sort folders and files alphabetically
         sortFn: (a, b) => {
           const nameOrderMap: Record<string, number> = {
-            Sorting2: 1,
-            Sorting: 2,
-            FIC: 3,
+            "Sorting2": 1,
+            "Sorting": 2,
+            "FIC": 3,
           };
 
           // Extract names
@@ -111,6 +111,8 @@ export const defaultListPageLayout: PageLayout = {
 
           // If both have an order value from nameOrderMap, compare numerically
           if (orderA !== Infinity && orderB !== Infinity) {
+            console.log("Both have order values");
+            console.log(orderA, orderB);
             return orderA - orderB;
           }
 
@@ -137,7 +139,7 @@ export const defaultListPageLayout: PageLayout = {
             return -1;
           }
         },
-      }),
+      })
     ),
   ],
   right: [],
