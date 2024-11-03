@@ -94,30 +94,37 @@ export const defaultListPageLayout: PageLayout = {
         // Sort order: folders first, then files. Sort folders and files alphabetically
         sortFn: (a, b) => {
           const nameOrderMap: Record<string, number> = {
-            "Sorting2": 200,
-            "Sorting": 201,
+            Sorting2: 1,
+            Sorting: 2,
+            FIC: 3,
           };
 
-          let orderA = 0;
-          let orderB = 0;
+          // Extract names
+          const nameA = a.displayName;
+          const nameB = b.displayName;
 
-          if (a.file && a.file.slug) {
-            orderA = nameOrderMap[a.file.slug] || 0;
-          } else if (a.name) {
-            orderA = nameOrderMap[a.name] || 0;
+          // Retrieve order values from nameOrderMap, default to Infinity if not in the map
+          const orderA =
+            nameOrderMap[nameA] !== undefined ? nameOrderMap[nameA] : Infinity;
+          const orderB =
+            nameOrderMap[nameB] !== undefined ? nameOrderMap[nameB] : Infinity;
+
+          // If both have an order value from nameOrderMap, compare numerically
+          if (orderA !== Infinity && orderB !== Infinity) {
+            return orderA - orderB;
           }
 
-          if (b.file && b.file.slug) {
-            orderB = nameOrderMap[b.file.slug] || 0;
-          } else if (b.name) {
-            orderB = nameOrderMap[b.name] || 0;
+          // If only one has an order value, that one should come first
+          if (orderA !== Infinity) {
+            return -1;
+          }
+          if (orderB !== Infinity) {
+            return 1;
           }
 
-          return orderA - orderB;
-
-          // If neither has an order value, default to alphabetical sorting
+          // Default to alphabetical sorting if neither has an order value
           if ((!a.file && !b.file) || (a.file && b.file)) {
-            return a.displayName.localeCompare(b.displayName, undefined, {
+            return nameA.localeCompare(nameB, undefined, {
               numeric: true,
               sensitivity: "base",
             });
