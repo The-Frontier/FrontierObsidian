@@ -82,8 +82,6 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (
               coalesceAliases(data, ["cssclasses", "cssclass"])
             );
             if (cssclasses) data.cssclasses = cssclasses;
-            const order = coalesceAliases(data, ["order"]);
-            if (order) data.order = order;
 
             // fill in frontmatter
             file.data.frontmatter = data as QuartzPluginData["frontmatter"];
