@@ -33,29 +33,23 @@ export const defaultContentPageLayout: PageLayout = {
           // Extract order values as strings
           const orderA = a.file?.frontmatter?.order?.toString();
           const orderB = b.file?.frontmatter?.order?.toString();
-          console.log(a.displayName, b.displayName, orderA, orderB);
           // If both have order values, compare lexicographically as strings
           if (orderA !== undefined && orderB !== undefined) {
             if (orderA < orderB) return -1;
             if (orderA > orderB) return 1;
-            console.log("orderA === orderB", orderA, orderB);
-            console.log("Compared numbers");
             return 0;
           }
 
           // If only one has an order value, that one should come first
           if (orderA !== undefined) {
-            console.log("No order value for B");
             return -1;
           }
           if (orderB !== undefined) {
-            console.log("No order value for A");
             return 1;
           }
 
           // If neither has an order value, default to alphabetical sorting
           if ((!a.file && !b.file) || (a.file && b.file)) {
-            console.log("No order value for either");
             return a.displayName.localeCompare(b.displayName, undefined, {
               numeric: true,
               sensitivity: "base",
@@ -99,28 +93,13 @@ export const defaultListPageLayout: PageLayout = {
         useSavedState: true, // whether to use local storage to save "state" (which folders are opened) of explorer
         // Sort order: folders first, then files. Sort folders and files alphabetically
         sortFn: (a, b) => {
-          // Extract order values as strings
-          const orderA = a.file?.frontmatter?.order?.toString();
-          const orderB = b.file?.frontmatter?.order?.toString();
-          console.log(a.displayName, b.displayName, orderA, orderB);
-          // If both have order values, compare lexicographically as strings
-          if (orderA !== undefined && orderB !== undefined) {
-            if (orderA < orderB) return -1;
-            if (orderA > orderB) return 1;
-            console.log("orderA === orderB", orderA, orderB);
-            console.log("Compared numbers");
-            return 0;
-          }
-
-          // If only one has an order value, that one should come first
-          if (orderA !== undefined) {
-            console.log("No order value for B");
-            return -1;
-          }
-          if (orderB !== undefined) {
-            console.log("No order value for A");
-            return 1;
-          }
+          const nameOrderMap: Record<string, number> = {
+            "poetry-folder": 100,
+            "essay-folder": 200,
+            "research-paper-file": 201,
+            "dinosaur-fossils-file": 300,
+            "other-folder": 400,
+          };
 
           // If neither has an order value, default to alphabetical sorting
           if ((!a.file && !b.file) || (a.file && b.file)) {
