@@ -109,6 +109,7 @@ export const defaultListPageLayout: PageLayout = {
           const orderB =
             nameOrderMap[nameB] !== undefined ? nameOrderMap[nameB] : Infinity;
 
+          return orderA - orderB;
           // If both have an order value from nameOrderMap, compare numerically
           if (orderA !== Infinity && orderB !== Infinity) {
             console.log("Both have order values");
