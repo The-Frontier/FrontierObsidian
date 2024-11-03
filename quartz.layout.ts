@@ -63,7 +63,7 @@ export const defaultContentPageLayout: PageLayout = {
             return -1;
           }
         },
-      })
+      }),
     ),
   ],
   right: [
@@ -137,7 +137,7 @@ export const defaultListPageLayout: PageLayout = {
             return -1;
           }
         },
-      })
+      }),
     ),
   ],
   right: [],
