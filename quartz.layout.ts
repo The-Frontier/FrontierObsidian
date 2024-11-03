@@ -99,39 +99,8 @@ export const defaultListPageLayout: PageLayout = {
             "FIC": 30,
           };
 
-          // Extract names
           const nameA = a.displayName;
           const nameB = b.displayName;
-          let orderA = 0;
-          let orderB = 0;
-
-          if (a.file && a.file.slug) {
-            orderA = nameOrderMap[a.file.slug] || 0;
-          } else if (a.name) {
-            orderA = nameOrderMap[a.name] || 0;
-          }
-
-          if (b.file && b.file.slug) {
-            orderB = nameOrderMap[b.file.slug] || 0;
-          } else if (b.name) {
-            orderB = nameOrderMap[b.name] || 0;
-          }
-
-          return orderA - orderB;
-          // If both have an order value from nameOrderMap, compare numerically
-          if (orderA !== Infinity && orderB !== Infinity) {
-            console.log("Both have order values");
-            console.log(orderA, orderB);
-            return orderA - orderB;
-          }
-
-          // If only one has an order value, that one should come first
-          if (orderA !== Infinity) {
-            return -1;
-          }
-          if (orderB !== Infinity) {
-            return 1;
-          }
 
           // Default to alphabetical sorting if neither has an order value
           if ((!a.file && !b.file) || (a.file && b.file)) {
