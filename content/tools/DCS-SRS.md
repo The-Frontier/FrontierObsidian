@@ -19,8 +19,6 @@ DCS-SRS is a standalone radio mod developed to complement DCS, but its potential
 ### Key Features of DCS-SRS
 - **Multiple Radio Channels**: Organize your team by separating communications (e.g., Combat, Exploration, Logistics).
 - **Push-to-Talk (PTT)**: Emulates real communication controls, adding authenticity and reducing channel clutter.
-- **Range Simulation**: Restricts communication by distance, which adds a tactical layer to operations.
-- **3D Positional Audio**: Ensures radio calls are immersive, as audio will vary based on distance and direction.
 
 ## Why *The Frontier* Uses DCS-SRS in Star Citizen
 In Star Citizen, communication is vital for coordinating fleet movements, synchronizing ground and space activities, and ensuring everyone is on the same page. *The Frontier* uses DCS-SRS for several reasons:
