@@ -46,7 +46,7 @@ flowchart TD
 Toggle the code icon in the top right to see the underlying code block.
 
 >[!info]
->For more information on mermaid you can read through their docu[documentation](https://mermaid.js.org/intro/). Or use their [online editor](https://mermaid.live) for a live preview. There are mermaid extensions for ChatGPT, although very complex charts are unlikely to generate correctly.
+>For more information on mermaid you can read through their [documentation](https://mermaid.js.org/intro/) and use their [online editor](https://mermaid.live) for a live preview. To read the Obsidian documentation on diagramms you can look [here](https://help.obsidian.md/Editing+and+formatting/Advanced+formatting+syntax#Diagram).
 
 ### Tags
 Tags can give more context to the note itself. It will also show all tags of the note on the website for easier navigation and grouping (see [[00 Authoring Content#Tag Listings]]). Only create tags in the Tags Property of the note, so it can correctly render on the website.  A tag is created with a `#` in front of the text like #fic. The case of the letters does not matter.
