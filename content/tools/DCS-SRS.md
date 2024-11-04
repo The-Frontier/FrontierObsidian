@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: DCS-SRS
 tags:
   - tools
