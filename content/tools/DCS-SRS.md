@@ -42,17 +42,21 @@ Here’s how *The Frontier* sets up DCS-SRS for use in Star Citizen:
 > [!info]
 > Due to security concerns, the DCS-SRS file is kept separate from the video and discord now. In order to recieve frequency sheets, please contact your Company or Division Commander
 
-2. **Assigning Frequencies**: We establish specific frequencies for each team function—combat, exploration, logistics, and command. These frequencies are distributed to each member before an operation begins. Our communication officer monitors all channels to keep everyone informed and ensure smooth operations.
+2. **Assigning Frequencies**: Each Division has a set of frequencies assigned to them, and other aspects of the Division also has sub-frequencies. a small example:
+   1. Rangers Freq
+	   1. Pathfinders
+	   2. Mechanized
+   2. IAC Freq
+	   1. Mining
+	   2. Salvaging
+   3. Outlaws
+   4. Officers
+   5. Main
 
 ## Use Cases of DCS-SRS in *The Frontier*
-### 1. Fleet Coordination during Patrol Missions
-On patrols, each ship or crew has its own role. We divide channels by ship class or combat role, so exploration teams can quietly survey asteroid fields while combat escorts remain on standby. DCS-SRS allows *The Frontier* to maintain seamless cross-communication without interfering with mission-critical updates.
+### 1. Fleet Coordination during Large or Intra-Org Missions
+On patrols, each ship or crew has its own role. We utilize discord for "local" or "team" communications, with team leads operating on a "command frequency" to communicate with other parts of the operation
 
-### 2. Rescue and Recovery Missions
-In risky or high-traffic areas, recovery operations can quickly become overwhelming. DCS-SRS allows us to set up a dedicated rescue frequency, so medics and repair crews can receive urgent updates from stranded or injured players, making the rescue process faster and safer.
-
-### 3. Large-Scale Combat Operations
-For coordinated attacks, we create specific channels for different squads, including interceptors, bombers, and support ships. This separation lets each team focus on their objective, and our command structure uses an “all-call” channel to provide overarching instructions to every team.
 
 ## Benefits of DCS-SRS for Star Citizen Organizations
 Using DCS-SRS allows Star Citizen organizations like *The Frontier* to establish clear roles, maintain operational security, and create a professional-grade communication network. Here’s how it benefits us:
