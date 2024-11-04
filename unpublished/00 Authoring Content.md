@@ -26,6 +26,8 @@ Callouts/Admonitions like the one above are not a part of the general markdown s
 > [!info]
 > For an overview of all obsidian flavoured markdown, have a look [here](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown).
 
+### Styling
+To keep this entire wiki and the website looking similar, when creating Charts, Flowcharts, MindMaps. Please use [Excalidraw](https://excalidraw.com/) and export the image as svg/png. Or use Mermaid Diagramms
 ### Tags
 Tags can give more context to the note itself. It will also show all tags of the note on the website for easier navigation and grouping (see [[00 Authoring Content#Tag Listings]]). Only create tags in the Tags Property of the note, so it can correctly render on the website.  A tag is created with a `#` in front of the text like #fic. The case of the letters does not matter.
 
