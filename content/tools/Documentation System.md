@@ -1,7 +1,8 @@
 ---
 draft: false
 title: 
-tags: 
+tags:
+  - tools
 description: 
 aliases: 
 date: 
