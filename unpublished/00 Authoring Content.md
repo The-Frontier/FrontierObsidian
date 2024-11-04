@@ -27,7 +27,27 @@ Callouts/Admonitions like the one above are not a part of the general markdown s
 > For an overview of all obsidian flavoured markdown, have a look [here](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown).
 
 ### Styling
-To keep this entire wiki and the website looking similar, when creating Charts, Flowcharts, MindMaps. Please use [Excalidraw](https://excalidraw.com/) and export the image as svg/png. Or use Mermaid Diagramms
+To keep this entire wiki and the website looking similar, when creating Charts, Flowcharts, MindMaps. Please use [Excalidraw](https://excalidraw.com/) and export the image as svg/png. Or use Mermaid Diagrams like this:
+
+```mermaid
+flowchart TD
+
+    A[Christmas] -->|Get money| B(Go shopping)
+
+    B --> C{Let me think}
+
+    C -->|One| D[Laptop]
+
+    C -->|Two| E[iPhone]
+
+    C -->|Three| F[fa:fa-car Car]
+
+```
+Toggle the code icon in the top right to see the underlying code block.
+
+>[!info]
+>For more information on mermaid you can read through their [documentation](https://mermaid.js.org/intro/). Or use their [online editor](https://mermaid.live) for a live preview. There are mermaid extensions for ChatGPT, although very complex charts are unlikely to generate correctly.
+
 ### Tags
 Tags can give more context to the note itself. It will also show all tags of the note on the website for easier navigation and grouping (see [[00 Authoring Content#Tag Listings]]). Only create tags in the Tags Property of the note, so it can correctly render on the website.  A tag is created with a `#` in front of the text like #fic. The case of the letters does not matter.
 
