@@ -1,6 +1,6 @@
 ---
 draft: false
-title: FIC Mining Doctrine
+title: FIC Stanton Mining Doctrine
 tags:
   - fic
   - mining
@@ -11,7 +11,7 @@ order:
 ---
 # Introduction
 
-This document outlines the current mining doctrine for the Frontier Industrial Cooperative (FIC) as of game version `3.24.2`. This doctrine specifically governs operations hosted by FIC. 
+This document outlines the current mining doctrine for the Frontier Industrial Cooperative (FIC) as of game version `3.24.2`. This doctrine specifically governs operations hosted by FIC inside the Stanton System.
 
 ## Guests
 If you or your organization have been invited to participate in an FIC mining event and find that your organization's doctrine conflicts with the guidelines outlined below, please reach out to Seriphai or Detroyer to discuss any accommodations needed for your participation.
