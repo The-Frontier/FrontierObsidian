@@ -27,7 +27,7 @@ Command Channel `369.369` - Captains and/or Team Leaders for each crew should be
 
 ## Profit Sharing
 In the spirit of teamwork, the Frontier institutes an "all-for-all" profit sharing system. Each and every mineral mined in the participation of a Frontier Mining Event should be recorded in Regolith and the profits are distributed to all participants in the event.
-#### 
+#### Shares System
 
 ## Fleet Composition
 
