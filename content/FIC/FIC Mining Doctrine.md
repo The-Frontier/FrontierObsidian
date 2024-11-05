@@ -28,6 +28,11 @@ Command Channel `369.369` - Captains and/or Team Leaders for each crew should be
 ## Profit Sharing
 In the spirit of teamwork, the Frontier institutes an "all-for-all" profit sharing system. Each and every mineral mined in the participation of a Frontier Mining Event should be recorded in Regolith and the profits are distributed to all participants in the event.
 #### Shares System
+All participating members are assigned 4 shares of the profits from mining activities. Owners of Active Moles are afforded an additional share to offset fuel/module replacement costs. See [[#Fleet Composition]] for more information about Active Moles.
+* for internal events ONLY: Team Leaders officially qualified in regolith and SRS receive an additional share as well
+#### Receiving Payment
+Refinement activites can take some time, up two 4 days. Payment status is recorded in Regolith and you should be able to check receipt of payment at any time. Make sure that your Regolith name is an exact match to your in-game name.
 
+Members that want immediate
 ## Fleet Composition
 
