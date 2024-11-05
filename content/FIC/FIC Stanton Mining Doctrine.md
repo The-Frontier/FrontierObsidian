@@ -23,7 +23,7 @@ FIC uses Discord and DCS-SRS to facilitate multi-group communication. Operations
 
 Mining and logistics crews are advised to use dedicated Discord channels for effective team coordination without disrupting other crews. 
 
-- **Command Channel (369.369)** - Captains and Team Leaders for each crew should connect to this channel to coordinate operations.
+- **Command Channel (369.369)** - Captains and Team Leaders for each crew should connect to this channel to coordinate operations, this frequency is The Frontier's public "Allies" frequency. If an internal Frequency is required for Frontier Command operations, Frontier members can go to channel: `Frontier-Main`
 
 ### Regolith.Rocks
 [Regolith.Rocks](https://regolith.rocks/) is a fan-made site used to record mining and salvaging sessions. Joining an active mining session in Regolith is a requirement for participating in any Frontier Event. A small video showing our uses for Regolith is shown [[Regolith.Rocks|Here]]
@@ -34,10 +34,10 @@ In the spirit of teamwork, FIC operates under a profit-sharing model where all m
 #### Shares System
 Each participant receives four shares of the mining profits. Owners of "Active Moles" are allocated an additional share to offset fuel and module replacement costs (see [[#Fleet Composition]] for more details on Active Moles).
 
-- **For Internal Events ONLY**: Officially qualified Team Leaders in Regolith and SRS will receive one additional share.
+- **For Internal Events ONLY**: Officially qualified Team Leaders will receive one additional share.
 
 #### Payment Distribution
-Refinement activities may take up to four days to complete. Payment statuses are updated in Regolith, allowing you to track receipt of payment at any time. Ensure your Regolith username matches your in-game name precisely.
+Refinement activities may take up to four days to complete. Payment statuses are updated in Regolith, allowing you to track receipt of payment at any time. Ensure your Regolith username matches your in-game name precisely. An early and immediate payout may be negotiated.
 
 ## Fleet Composition
 
@@ -45,7 +45,7 @@ Refinement activities may take up to four days to complete. Payment statuses are
 A standard Mining Fleet composition in Star Citizen and FIC operations aims to have at least one (1) fully crewed Mole mining continuously. Due to game limitations, the recommended "Mining Group" comprises a total of eight participants as follows:
 
 1. One actively mining Mole (referred to as the 'Active Mole')
-2. One logistics vessel with additional bags
+2. One logistics vessel with additional bags, crews of Logistics vessels are also required to act as "Pit Crew" for Active Moles, swapping full bags for empty bags
 3. One Mole shuttling between the logistics vessel and refinement stations; this operator is responsible for recording all refinement jobs in Regolith and completing the event by promptly collecting and selling the refined materials
 4. Up to two scouts (no more than two scouts per mining vessel). Additional participants should support logistics or form overflow crews.
 
