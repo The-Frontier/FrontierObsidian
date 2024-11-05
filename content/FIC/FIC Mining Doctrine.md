@@ -32,7 +32,32 @@ All participating members are assigned 4 shares of the profits from mining activ
 * for internal events ONLY: Team Leaders officially qualified in regolith and SRS receive an additional share as well
 #### Receiving Payment
 Refinement activites can take some time, up two 4 days. Payment status is recorded in Regolith and you should be able to check receipt of payment at any time. Make sure that your Regolith name is an exact match to your in-game name.
-
-Members that want immediate
 ## Fleet Composition
 
+### Basic Composition
+The basic composition of a Mining Fleet in the current iteration of both Star Citizen and FIC is targeted at having at least one (1) fully crewed mole actively mining at all times. Due to game restrictions the basic "Mining Group" consists of a total manning suggestion of 8 participants:
+1. One Mole Mining (Termed 'Active' Mole)
+2. One Logistics Vessel with additional bags
+3. One Mole running between the Logistics Vessel and refinement stations. The operator of this vessel is required to record all refinement jobs in regolith and is obligated to complete the event by collecting and selling refined material in a timely manner
+4. 2 Scouts - There should be no more than 2 Scouts per mining vessel. Additional participants should be assigned to Logistics or overflow crew.
+### Advanced/Inter-Org Composition
+Each org represented at an event is invited and encouraged to field at minimum one Active Mole, the captain of which will receive the additional share mentioned above. Beyond one fully-crewed Mole and two scouts, additional participants are requested to "fill out" other crew-positions until which an "overflow" crew can be assembled and assigned an additional mole, the owner of which to be determined either by availability or majority of overflow crew organization. 
+
+### Movement SOP/How we use Regolith
+
+```mermaid
+flowchart TD
+
+    A[Scouts Deploy] -->|Rock Found| B(Submit Scouting Report)
+
+    B --> C{Mole Captains review Scouting Report}
+
+    C --> D[Captain Marks On my way]
+
+    C --> E[Captain Marks Ignore]
+
+    E --> F{Scout Re-deploy}
+    D --> G[Mole on-station]
+    G --> F
+    F --> A
+```
