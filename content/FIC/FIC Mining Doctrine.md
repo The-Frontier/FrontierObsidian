@@ -10,54 +10,63 @@ date: 2024-11-04
 order:
 ---
 # Introduction
-The following document is an outline of the current mining doctrine for the Frontier Industrial Cooperative as of game version `3.24.2`. This Doctrine specifically applies to any operations hosted by FIC. 
-## Visitors
-If you or your org has been invited to participate in an FIC mining event, and there is a conflict between your org's doctrine and the doctrine defined below, contact Seriphai or Detroyer to discuss accommodations needed for your participation.
+
+This document outlines the current mining doctrine for the Frontier Industrial Cooperative (FIC) as of game version `3.24.2`. This doctrine specifically governs operations hosted by FIC. 
+
+## Guests
+If you or your organization have been invited to participate in an FIC mining event and find that your organization's doctrine conflicts with the guidelines outlined below, please reach out to Seriphai or Detroyer to discuss any accommodations needed for your participation.
 
 # Doctrine 
-## Tools used
+## Communication Tools
 ### DCS-SRS
-The Fronter uses Discord and DCS-SRS for multi-group communication. We operation on the Od3ica Relay Server that can be found [here](https://srs-citizen.app)
-Mining and Logistics ships should be in their own discord channel so that crews can coordinate efforts without interfering with other crews.
+FIC uses Discord and DCS-SRS to facilitate multi-group communication. Operations run on the Od3ica Relay Server, accessible [here](https://srs-citizen.app). Training for using DCS-SRS can be provided upon request. A training video is available [[DCS-SRS|Here]] 
 
-Command Channel `369.369` - Captains and/or Team Leaders for each crew should be in this channel
+Mining and logistics crews are advised to use dedicated Discord channels for effective team coordination without disrupting other crews. 
+
+- **Command Channel (369.369)** - Captains and Team Leaders for each crew should connect to this channel to coordinate operations.
 
 ### Regolith.Rocks
-[Regolith.Rocks](https://regolith.rocks/) is a fan-made site used to record mining and salvaging sessions. Participation in a Frontier Event requires logging into Regolith and joining the active mining session.
+[Regolith.Rocks](https://regolith.rocks/) is a fan-made site used to record mining and salvaging sessions. Joining an active mining session in Regolith is a requirement for participating in any Frontier Event.
 
 ## Profit Sharing
-In the spirit of teamwork, the Frontier institutes an "all-for-all" profit sharing system. Each and every mineral mined in the participation of a Frontier Mining Event should be recorded in Regolith and the profits are distributed to all participants in the event.
+In the spirit of teamwork, FIC operates under a profit-sharing model where all minerals mined during a Frontier Mining Event are recorded in Regolith, and profits are shared equally among participants.
+
 #### Shares System
-All participating members are assigned 4 shares of the profits from mining activities. Owners of Active Moles are afforded an additional share to offset fuel/module replacement costs. See [[#Fleet Composition]] for more information about Active Moles.
-* for internal events ONLY: Team Leaders officially qualified in regolith and SRS receive an additional share as well
-#### Receiving Payment
-Refinement activites can take some time, up two 4 days. Payment status is recorded in Regolith and you should be able to check receipt of payment at any time. Make sure that your Regolith name is an exact match to your in-game name.
+Each participant receives four shares of the mining profits. Owners of "Active Moles" are allocated an additional share to offset fuel and module replacement costs (see [[#Fleet Composition]] for more details on Active Moles).
+
+- **For Internal Events ONLY**: Officially qualified Team Leaders in Regolith and SRS will receive one additional share.
+
+#### Payment Distribution
+Refinement activities may take up to four days to complete. Payment statuses are updated in Regolith, allowing you to track receipt of payment at any time. Ensure your Regolith username matches your in-game name precisely.
+
 ## Fleet Composition
 
-### Basic Composition
-The basic composition of a Mining Fleet in the current iteration of both Star Citizen and FIC is targeted at having at least one (1) fully crewed mole actively mining at all times. Due to game restrictions the basic "Mining Group" consists of a total manning suggestion of 8 participants:
-1. One Mole Mining (Termed 'Active' Mole)
-2. One Logistics Vessel with additional bags
-3. One Mole running between the Logistics Vessel and refinement stations. The operator of this vessel is required to record all refinement jobs in regolith and is obligated to complete the event by collecting and selling refined material in a timely manner
-4. 2 Scouts - There should be no more than 2 Scouts per mining vessel. Additional participants should be assigned to Logistics or overflow crew.
-### Advanced/Inter-Org Composition
-Each org represented at an event is invited and encouraged to field at minimum one Active Mole, the captain of which will receive the additional share mentioned above. Beyond one fully-crewed Mole and two scouts, additional participants are requested to "fill out" other crew-positions until which an "overflow" crew can be assembled and assigned an additional mole, the owner of which to be determined either by availability or majority of overflow crew organization. 
+### Basic Fleet Structure
+A standard Mining Fleet composition in Star Citizen and FIC operations aims to have at least one (1) fully crewed Mole mining continuously. Due to game limitations, the recommended "Mining Group" comprises a total of eight participants as follows:
 
-### Movement SOP/How we use Regolith
+1. One actively mining Mole (referred to as the 'Active Mole')
+2. One logistics vessel with additional storage
+3. One Mole shuttling between the logistics vessel and refinement stations; this operator is responsible for recording all refinement jobs in Regolith and completing the event by promptly collecting and selling the refined materials
+4. Up to two scouts (no more than two scouts per mining vessel). Additional participants should support logistics or form overflow crews.
+
+### Advanced / Multi-Org Fleet Structure
+Each organization represented at an event is encouraged to deploy at least one fully-crewed Active Mole. The captain of each Active Mole is eligible for the additional share outlined above. Beyond the initial crewed Mole and two scouts, extra participants should support logistics or form "overflow" crews. Overflow crews will be assigned an additional Mole, with the ownership determined by availability or majority preference of the overflow organization.
+
+### Movement SOP / Regolith Workflow
 
 ```mermaid
 flowchart TD
 
     A[Scouts Deploy] -->|Rock Found| B(Submit Scouting Report)
 
-    B --> C{Mole Captains review Scouting Report}
+    B --> C{Mole Captains Review Scouting Report}
 
-    C --> D[Captain Marks On my way]
+    C --> D[Captain Marks 'On My Way']
 
-    C --> E[Captain Marks Ignore]
+    C --> E[Captain Marks 'Ignore']
 
     E --> F{Scout Re-deploy}
-    D --> G[Mole on-station]
+    D --> G[Mole On-Station]
     G --> F
     F --> A
 ```
