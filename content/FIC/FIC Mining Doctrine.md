@@ -45,7 +45,7 @@ Refinement activities may take up to four days to complete. Payment statuses are
 A standard Mining Fleet composition in Star Citizen and FIC operations aims to have at least one (1) fully crewed Mole mining continuously. Due to game limitations, the recommended "Mining Group" comprises a total of eight participants as follows:
 
 1. One actively mining Mole (referred to as the 'Active Mole')
-2. One logistics vessel with additional storage
+2. One logistics vessel with additional bags
 3. One Mole shuttling between the logistics vessel and refinement stations; this operator is responsible for recording all refinement jobs in Regolith and completing the event by promptly collecting and selling the refined materials
 4. Up to two scouts (no more than two scouts per mining vessel). Additional participants should support logistics or form overflow crews.
 
