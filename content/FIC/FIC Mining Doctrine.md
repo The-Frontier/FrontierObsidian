@@ -19,6 +19,15 @@ If you or your org has been invited to participate in an FIC mining event, and t
 ### DCS-SRS
 The Fronter uses Discord and DCS-SRS for multi-group communication. We operation on the Od3ica Relay Server that can be found [here](https://srs-citizen.app)
 Mining and Logistics ships should be in their own discord channel so that crews can coordinate efforts without interfering with other crews.
+
+Command Channel `369.369` - Captains and/or Team Leaders for each crew should be in this channel
+
+### Regolith.Rocks
+[Regolith.Rocks](https://regolith.rocks/) is a fan-made site used to record mining and salvaging sessions. Participation in a Frontier Event requires logging into Regolith and joining the active mining session.
+
 ## Profit Sharing
+In the spirit of teamwork, the Frontier institutes an "all-for-all" profit sharing system. Each and every mineral mined in the participation of a Frontier Mining Event should be recorded in Regolith and the profits are distributed to all participants in the event.
+#### 
+
 ## Fleet Composition
 
