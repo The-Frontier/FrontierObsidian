@@ -34,8 +34,6 @@ In the spirit of teamwork, FIC operates under a profit-sharing model where all m
 #### Shares System
 Each participant receives four shares of the mining profits. Owners of "Active Moles" are allocated an additional share to offset fuel and module replacement costs (see [[#Fleet Composition]] for more details on Active Moles).
 
-- **For Internal Events ONLY**: Officially qualified Team Leaders will receive one additional share.
-
 #### Payment Distribution
 Refinement activities may take up to four days to complete. Payment statuses are updated in Regolith, allowing you to track receipt of payment at any time. Ensure your Regolith username matches your in-game name precisely. An early and immediate payout may be negotiated.
 
