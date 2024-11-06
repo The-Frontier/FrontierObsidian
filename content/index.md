@@ -23,7 +23,8 @@ For those drawn to a more unconventional path, The Outlaws represent our pirate 
 
 ## Leadership and Structure
 
-Each division is led by a capable and experienced commander—or, in the case of FIC, a CEO—who ensures the smooth functioning and success of their respective teams. These leaders are responsible for strategic planning, coordination, and the overall effectiveness of their divisions. For more detailed information on the leadership and structure of each division, please visit: Rangers, FIC, and Outlaws. You'll find insights into how each division operates, the key individuals involved, and the specific missions that drive their efforts.
+Each division is led by a capable and experienced commander—or, in the case of FIC, a CEO—who ensures the smooth functioning and success of their respective teams. These leaders are responsible for strategic planning, coordination, and the overall effectiveness of their divisions. For more detailed information on the leadership and structure of each division, please visit: [Rangers](https://frontier.watsoninterfacing.space/Rangers), [FIC](https://frontier.watsoninterfacing.space/FIC), and [Outlaws](https://frontier.watsoninterfacing.space/Outlaws).
+You'll find insights into how each division operates, the key individuals involved, and the specific missions that drive their efforts.
 
 ## Join Us
 

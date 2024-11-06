@@ -6,6 +6,8 @@
   "enableCompatQuickExplorer": false,
   "attachmentFolderNames": [
     "node_modules",
-    "quartz"
+    "quartz",
+    "public",
+    ""
   ]
 }

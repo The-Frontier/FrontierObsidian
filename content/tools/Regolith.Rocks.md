@@ -4,10 +4,10 @@ title:
 tags:
   - fic
   - mining
+  - fleet
 description: 
 aliases: 
 date: 
 order:
 ---
-# FIC Test Page
-This is a test page for the Obsidian Tutorial Video. Test Test test
+# Introduction
