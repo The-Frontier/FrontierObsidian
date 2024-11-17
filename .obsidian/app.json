@@ -5,5 +5,5 @@
   "defaultViewMode": "source",
   "strictLineBreaks": false,
   "livePreview": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "shortest"
 }
