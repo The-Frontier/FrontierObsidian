@@ -1,9 +1,9 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "attachments",
+  "attachmentFolderPath": "content/attachments",
   "defaultViewMode": "source",
   "strictLineBreaks": false,
   "livePreview": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "shortest"
 }
