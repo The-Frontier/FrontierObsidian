@@ -18,9 +18,6 @@ This Organization will be lead by an individual or individuals with rank/title o
 Leadership within the branches of FIC will be individual(s) containing the rank of "Company Commander" within the Frontier and COO:Branch (Chief of Operations: Procurement) within FIC. 
 
 Further leadership (Team leader, squad leader, etc) will be determined on an as-needed basis for participation in large or inter-org operations. Eligibility for assignment as team lead will be based on competency and qualification with third-party tools needed for the operation (regolith, DCS-SRS, etc.). An incentive program should be implemented by COOs/CEOs to encourage qualification.
-
-- An example incentive could be inspired from current Mining-Op doctrine: All participating members get 4 shares, ship owners recieve 5 shares to account for replacement of modules/repairs. Perhaps team leaders also get an additional share....so a Team Lead that is also using their mole would recieve 6 shares.
-
 ## Expectations and Requirements
 ### Base Membership Requirements
 base membership into the FIC will be based upon a simple competency training defined by CEOs in a different document.
