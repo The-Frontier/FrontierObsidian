@@ -46,3 +46,11 @@ While on the face, the Logistics branch of FIC will have the least diversity in 
 2. The maintenance of warehouses and supplies(spreadsheet simulator
 3. The allocation and usage of goods
 This branch will also have the breadth of SOPs defining minimum supply amounts, the ability to requisition materials from procurement, managing requisitions from other branches, etc. 
+
+# Inter-Agency Relations
+It should be made clear, though the agencies defined above have separate mission-statements and realms of influence, that they are all parts of the singular mission of the Frontier Industrial Cooperative: To act as the core of any and all non-combatant* activities for The Frontier Organization. 
+
+Each Agency within the FIC informs the actions of the other agencies:
+- Manufacturing creates demand for a particular resource
+- Procurement creates the supply of the demanded resource
+- Logistics maintains warehouses, records, and transfers of resources between the agencies and externally to trade partners
