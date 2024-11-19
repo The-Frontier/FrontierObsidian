@@ -26,7 +26,7 @@ Mining and logistics crews are advised to use dedicated Discord channels for eff
 - **Command Channel (369.369)** - Captains and Team Leaders for each crew should connect to this channel to coordinate operations, this frequency is The Frontier's public "Allies" frequency. If an internal Frequency is required for Frontier Command operations, Frontier members can go to channel: `Frontier-Main`
 
 ### Regolith.Rocks
-[Regolith.Rocks](https://regolith.rocks/) is a fan-made site used to record mining and salvaging sessions. Joining an active mining session in Regolith is a requirement for participating in any Frontier Event. A small video showing our uses for Regolith is shown [[Regolith.Rocks|Here]]
+[Regolith.Rocks](https://regolith.rocks/) is a fan-made site used to record mining and salvaging sessions. Joining an active mining session in Regolith is a requirement for participating in any Frontier Event. A small video showing our uses for Regolith can be found [[Regolith.Rocks|here]].
 
 ## Profit Sharing
 In the spirit of teamwork, FIC operates under a profit-sharing model where all minerals mined during a Frontier Mining Event are recorded in Regolith, and profits are shared equally among participants.

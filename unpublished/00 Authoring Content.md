@@ -56,8 +56,8 @@ Tags can give more context to the note itself. It will also show all tags of the
 
 ### Embedding Images
 Embedding images is as easy as copy and pasting. The image in the clipboard should be inserted into the `/attachments` folder and a wikilink like 
-`![[attachments/image.png]]` should appear in the note. Renaming the image is recommended, the link should auto-update when renaming the image. To change the size of the image adjust the wikilink like this: 
-`![[attachments/image.png|500]]` which will render the image 500px wide and keep the aspect-ratio.
+`![[image.png]]` should appear in the note. Renaming the image is recommended, the link should auto-update when renaming the image. To change the size of the image adjust the wikilink like this: 
+`![[image.png|500]]` which will render the image 500px wide and keep the aspect-ratio.
 
 > [!warning]
 > Only images in the `/attachments` folder will be displayed on the website.
